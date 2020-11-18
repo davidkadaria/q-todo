@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/q-todo/static/css/main.133ae0d9.chunk.css",
+    "main.js": "/q-todo/static/js/main.ed62bdbb.chunk.js",
+    "main.js.map": "/q-todo/static/js/main.ed62bdbb.chunk.js.map",
+    "runtime-main.js": "/q-todo/static/js/runtime-main.b39086dd.js",
+    "runtime-main.js.map": "/q-todo/static/js/runtime-main.b39086dd.js.map",
+    "static/js/2.2edbba3c.chunk.js": "/q-todo/static/js/2.2edbba3c.chunk.js",
+    "static/js/2.2edbba3c.chunk.js.map": "/q-todo/static/js/2.2edbba3c.chunk.js.map",
+    "index.html": "/q-todo/index.html",
+    "static/css/main.133ae0d9.chunk.css.map": "/q-todo/static/css/main.133ae0d9.chunk.css.map",
+    "static/js/2.2edbba3c.chunk.js.LICENSE.txt": "/q-todo/static/js/2.2edbba3c.chunk.js.LICENSE.txt",
+    "static/media/fonts.css": "/q-todo/static/media/Poppins-Regular.dd1ec142.eot"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b39086dd.js",
+    "static/js/2.2edbba3c.chunk.js",
+    "static/css/main.133ae0d9.chunk.css",
+    "static/js/main.ed62bdbb.chunk.js"
+  ]
+}
