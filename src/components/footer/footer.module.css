@@ -1,0 +1,26 @@
+.container {
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	padding: 36px 0px;
+}
+
+.container p {
+	font-size: 12px;
+}
+
+.container ul {
+	margin-top: 6px;
+}
+
+@media (min-width: 576px) {
+	.container {
+		padding: 48px 0px;
+	}
+
+	.container p {
+		font-size: 18px;
+	}
+}

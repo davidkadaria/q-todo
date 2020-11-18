@@ -1,0 +1,104 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+*, *:before, *:after {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+html {
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	font-family: 'Poppins', sans-serif;
+}
+
+.q-t {
+	-webkit-transition: 0.2s;
+	-o-transition: 0.2s;
+	transition: 0.2s;
+}
+
+.q-o-hidden {
+	overflow: hidden;
+}
+
+.q-p-r {
+	position: relative;
+}
+
+.q-p-a {
+	position: absolute;
+}
+
+.q-d-f {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.q-d-f--cc {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+
+.q-list {
+	list-style: none;
+}
+
+.q-w-all {
+	width: 100%;
+}
+
+.q-h-all {
+	height: 100%;
+}
+
+.q-ta-c {
+	text-align: center;
+}
+
+.q-container {
+	padding-right: 12px;
+	padding-left: 12px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+@media (min-width: 576px) {
+	.q-container {
+		max-width: 540px;
+	}
+}
+
+@media (min-width: 768px) {
+	.q-container {
+		max-width: 720px;
+	}
+}
+
+@media (min-width: 992px) {
+	.q-container {
+		max-width: 960px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.q-container {
+		max-width: 1140px;
+	}
+}

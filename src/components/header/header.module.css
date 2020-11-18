@@ -1,0 +1,18 @@
+.container {
+	padding: 36px 0px;
+}
+
+.container h1 {
+	font-size: 36px;
+	-webkit-text-stroke-width: 1px;
+}
+
+@media (min-width: 576px) {
+	.container {
+		padding: 48px 0px;
+	}
+
+	.container h1 {
+		font-size: 48px;
+	}
+}

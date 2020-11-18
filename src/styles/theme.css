@@ -1,0 +1,121 @@
+.q-c-dark {
+	color: #343a40;
+}
+
+.q-c-light {
+	color: #f8f9fa;
+}
+
+.q-c-primary {
+	color: #007bff;
+}
+
+.q-c-success {
+	color: #28a745;
+}
+
+.q-c-danger {
+	color: #dc3545;
+}
+
+.q-c-secondary {
+	color: #6c757d;
+}
+
+.q-bg-dark {
+	background-color: #343a40;
+}
+
+.q-bg-light {
+	background-color: #f8f9fa;
+}
+
+.q-bg-primary {
+	background-color: #007bff;
+}
+
+.q-bg-success {
+	background-color: #28a745;
+}
+
+.q-bg-danger {
+	background-color: #dc3545;
+}
+
+.q-bg-secondary {
+	background-color: #6c757d;
+}
+
+.q-bc-dark {
+	border-color: #343a40;
+}
+
+.q-bc-light {
+	border-color: #f8f9fa;
+}
+
+.q-bc-primary {
+	border-color: #007bff;
+}
+
+.q-bc-success {
+	border-color: #28a745;
+}
+
+.q-bc-danger {
+	border-color: #dc3545;
+}
+
+.q-bc-secondary {
+	border-color: #6c757d;
+}
+
+.q-f-dark {
+	fill: #343a40;
+}
+
+.q-f-light {
+	fill: #f8f9fa;
+}
+
+.q-f-primary {
+	fill: #007bff;
+}
+
+.q-f-success {
+	fill: #28a745;
+}
+
+.q-f-danger {
+	fill: #dc3545;
+}
+
+.q-f-secondary {
+	fill: #6c757d;
+}
+
+/* TEXT STROKE */
+@supports (-webkit-text-stroke-color: #007bff) {
+	.q-tsc-primary {
+		-webkit-text-stroke-color: #007bff;
+	}
+}
+
+@supports not (-webkit-text-stroke-color: #007bff) {
+	.q-tsc-primary {
+		color: #f8f9fa !important;
+	}
+}
+
+/* HOVER EFFECTS */
+.q-h-bg-primary:hover {
+	background-color: #007bff;
+}
+
+.q-h-c-light:hover {
+	color: #f8f9fa;
+}
+
+.q-h-f-light:hover path {
+	fill: #f8f9fa;
+}
